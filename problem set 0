@@ -1,1 +1,29 @@
 This file is for homework assignment 0. 
+Notes on "Code and Data for the Social Sciences: A Practcioner's Guide" by Shapiro and Gentzkow.
+1. Automate everything that can be automated.
+	From merging, cleaning data to final output.
+2. Write a single  script that exectures all code from beginning to end.
+	use .command in mac system, .bat in windows system.
+3. Store code and data under version control.
+	Github becomes the life saver.
+4. Run the whole directory before checking it back in.
+	Run everything again before you close it.
+5. Separate directories by function.
+	Divide your work into blocks.
+6. Separate files into inputs and outputs.
+7. Make directories portable.
+8. Store cleaned data in tables with unique, non-missing keys.
+	A key is a variable or set of variables that uniquely identifies the elements of a table.
+9. Keep data normalized as far into your code pipeline as you can.
+	1) Store the raw data in normalized files but do not transform it 
+	2) Transform the normalized files in the set of normalized files
+	3) Merge together the tables in the database to form the array on which you will estimate your model
+10. Abstract to eliminate redundancy.
+	build functions if there is repeatation in your operation
+	Abstract to improve clarity
+	Otherwise, don't abstract.
+11. Don't write documentation you will not maintain.
+	Code shold be self-documenting.
+12. Manage tasks with a task management system.
+	Github again!
+	Do not use email!!
